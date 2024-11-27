@@ -40,6 +40,14 @@
         android:id="@+id/linLay"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"></LinearLayout>
+        android:orientation="vertical">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView"
+            android:name="com.tweak.fragments.frag.FirstFrag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_first" />
+    </LinearLayout>
 
 </LinearLayout>
